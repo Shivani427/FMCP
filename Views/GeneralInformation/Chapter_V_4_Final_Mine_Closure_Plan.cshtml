@@ -1,0 +1,276 @@
+﻿@{
+    ViewData["Title"] = "Chapter_V_4_Final_Mine_Closure_Plan";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
+}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 card">
+                <div class="card-body">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading bold text-center">CHAPTER-V FINAL MINE CLOSURE PLAN</div>
+                            <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    5.3     Financial Assurance - Table indicating the break-up of areas in the Mining Lease For
+                                                    Calculation of Financial assurance
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="form-group col-md-12">
+                                                            <select name="cars" id="cars" class="form-control">
+                                                                <option value="volvo">Item</option>
+                                                                <option value="saab">Area under mining</option>
+                                                                <option value="mercedes">
+                                                                    Storage for top
+                                                                    soil
+                                                                </option>
+                                                                <option value="audi">Waste dump site</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label ">
+                                                                Area put to
+                                                                use at start
+                                                                of FMCP
+                                                                period (ha)(c)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="N" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="NF" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="T" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label">
+                                                                Additional
+                                                                area
+                                                                requirement
+                                                                during
+                                                                FMCP
+                                                                period (ha)(d)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="N" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="NF" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="T" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label">
+                                                                Total area
+                                                                put to use
+                                                                (ha) (e)=(c+d)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="N" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="NF" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="T" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label">
+                                                                Area
+                                                                considered
+                                                                as fully
+                                                                reclaimed &
+                                                                rehabilitated
+                                                                as on start of
+                                                                FMCP period
+                                                                (ha) (f)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="N" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="NF" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="T" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label">
+                                                                Net area
+                                                                considered
+                                                                for
+                                                                calculation
+                                                                (ha) (g)=(e-f)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="N" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="NF" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" placeholder="T" />
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row">
+                                                        <div class="table-responsive ">
+                                                            <table class="table table-bordered ">
+                                                                
+                                                                <tr class=" text-center">
+                                                                    <th colspan="15" >
+                                                                        Financial Assurance - Table indicating the break-up of areas in the Mining Lease For
+                                                                        Calculation of Financial assurance
+                                                                    </th>
+                                                                   
+                                                                </tr>
+                                                                <tr >
+                                                                    <th> Sl. No.</th>
+                                                                    <th> Items</th>
+                                                                    <th colspan="3">
+                                                                        Area put to
+                                                                        use at start
+                                                                        of FMCP
+                                                                        period (ha)
+                                                                    </th>
+                                                                    <th colspan="3">
+                                                                        Additional
+                                                                        area
+                                                                        requirement
+                                                                        during
+                                                                        FMCP
+                                                                        period (ha)
+                                                                    </th>
+                                                                    <th colspan="3">
+                                                                        Total area
+                                                                        put to use
+                                                                        (ha)
+                                                                    </th>
+                                                                    <th colspan="3">
+                                                                        Area
+                                                                        considered
+                                                                        as fully
+                                                                        reclaimed &
+                                                                        rehabilitated
+                                                                        as on start of
+                                                                        FMCP period
+                                                                        (ha)
+                                                                    </th>
+                                                                    <th>
+                                                                        Net area
+                                                                        considered
+                                                                        for
+                                                                        calculation
+                                                                        (ha)
+                                                                    </th>
+                                                                    
+                                                                </tr>
+                                                                <tr class="text-center" >
+                                                                    <td rowspan="2">(a)</td>
+                                                                    <td rowspan="2">(b)</td>
+                                                                    <td colspan="3">(c)</td>
+                                                                    <td colspan="3">(d)</td>
+                                                                    <td colspan="3">(e)=(c+d)</td>
+                                                                    <td colspan="3">(f)</td>
+                                                                    <td>(g)=(e-f)</td>
+                                                                </tr>
+                                                                <tr class="text-center">
+                                                                    
+                                                                    <td >
+                                                                          N
+                                                                    </td>
+                                                                    <td>
+                                                                        NF
+                                                                    </td>
+                                                                    <td>
+                                                                        T
+                                                                    </td>
+                                                                    <td >N</td>
+                                                                    <td >NF</td>
+                                                                    <td >T</td>
+                                                                    <td>N</td>
+                                                                    <td>NF</td>
+                                                                    <td>N</td>
+                                                                    <td>F</td>
+                                                                    <td>NF</td>
+                                                                    <td>T</td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr class="text-center">
+
+                                                                    <td>
+                                                                        1
+                                                                    </td>
+                                                                    <td>
+                                                                        Area under mining
+                                                                    </td>
+                                                                    <td>
+                                                                       
+                                                                    </td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="15" class="text-center bold">F=Forest, NF=Non-Forest, T=Tota</td></tr>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer row">
+                        <div class="form-group col-md-12 text-center">
+                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Save & Next <i class="fas fa-angle-right"></i> </button>
+                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</div>
+</body>

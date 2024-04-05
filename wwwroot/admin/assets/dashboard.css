@@ -1,0 +1,394 @@
+
+.u-progress {
+    height: 0.5rem !important;
+}
+.u-card{
+    background-color: transparent !important;
+}
+.u-li-menu{
+    /* padding: 0 1.5rem 0 0 !important; */
+    color:#3d68d6 !important;
+}
+.metismenu-state-icon {
+    font-size: 34px !important;
+    opacity: 1 !important;
+}
+.vertical-nav-menu ul>li>a {
+    /* padding: 0 1.5rem 0 0; */
+    padding: 0 1.5rem 0 6px;
+    text-transform: capitalize;
+}
+.u-logo-text {
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.app-header.header-text-light .app-header__logo .logo-src {
+    background-repeat: no-repeat;
+}
+.u_nav_item {
+    border-bottom: 1px solid gainsboro;
+}
+.u_nav_item .nav-link:hover {
+    font-weight: bold;
+}
+.u_bnr {
+    height: 98px !important;
+    background-image: url(../assets/images/bnr3.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+}
+.u_bnr_new {
+    max-height: 40px !important;
+}
+#u_header_left_img {
+    background-image: url(../assets/images/header_str_lg_1.png);
+    background-repeat: no-repeat !important;
+    background-position: left;
+    background-size: contain !important;
+}
+#u_header_middle_img {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+#u_header_right_img {
+    background-image: url(../assets/images/header_str_lg_2.png);
+    background-repeat: no-repeat !important;
+    background-position: right;
+    background-size: contain !important;
+}
+#u_header_text {
+    padding: 10px 0 0px 0px;
+}
+#u_header_text_next {
+    padding: 0px 0 2px 0px;
+}
+.u_login_info {
+    font-weight: bold;
+    color: #dfdfdf;
+}
+.u_footer {
+    background: white;
+    padding-top: 17px;
+}
+.vertical-nav-menu i.metismenu-state-icon, .vertical-nav-menu i.metismenu-icon {
+    opacity: .8;
+}
+@media screen and (max-width: 356px) {
+    #u_header_left_img {
+        background-image: url(images/logo_sm_1.png);
+        height: 51px;
+    }
+    #u_header_middle_img {
+        font-size: 0.7rem;
+    }
+    #u_header_right_img {
+        background-image: url(../../assets/images/logo_sm_2.png);
+        height: 51px;
+    }
+}
+.u_midnight_bloom_one {
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+.u_midnight_bloom {
+    background-image: linear-gradient( -20deg, #153a53 0%, #7f6aca 100%) !important;
+    border-radius: 6px;
+}
+.u_midnight_bloom .list-group-item {
+    background-color: unset;
+    border: unset; 
+}
+.u_midnight_bloom_two {
+    padding: .55rem 1.20rem;
+    background-color: #f9f9f9 !important;
+    color: #131212 !important;
+    margin: 4px;
+    border-radius: 4px !important;
+    height:140px;
+}
+.u_midnight_bloom_two2 {
+    padding: .55rem 1.20rem;
+    background-color: #f9f9f9 !important;
+    color: #131212 !important;
+    margin: 10px auto;
+    border-radius: 20px !important;
+    height: 45px;
+    width: 60%;
+}
+.u_stat_two {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%) !important;
+    border-radius: 6px;
+}
+.u_stat_two .list-group-item {
+    background-color: unset;
+    border: unset;
+}
+.u_stat_three {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%) !important;
+    border-radius: 6px;
+}
+.u_stat_three .list-group-item {
+    background-color: unset;
+    border: unset;
+}
+.u_stat_three .u_midnight_bloom_two {
+    background-color: #f9f9f9 !important;
+    color: #131212 !important;
+    margin: 4px;
+    border-radius: 7px !important;
+}
+.u_stat_four {
+    background-image: linear-gradient(to right, #434343 0%, black 100%) !important;
+    border-radius: 6px;
+}
+.u_stat_four .list-group-item {
+    background-color: unset;
+    /* */border: unset;
+}
+.u_stat_four .u_midnight_bloom_two {
+    background-color: #f9f9f9 !important;
+    color: #131212 !important;
+    margin: 4px;
+    border-radius: 7px !important;
+}
+.card-header {
+    height: auto;
+}
+.u_comment_body {
+    padding-top: 0;
+    padding-bottom: 12px;
+}
+.u_comment_body .scrollbar-container {
+    height: 90%;
+}
+.u_comment_header {
+    padding: 8px 24px;
+}
+.top-ore-list {
+    font-weight: 600;
+    color: white;
+    opacity: .8 !important;
+}
+.top-ore-more {
+    font-size: 12px;
+    float: right;
+    color: white;
+}
+
+.u_return_stat {
+    border-radius: 6px;
+}
+.u_return_stat .list-group-item {
+        border: 1px solid gainsboro !important;
+}
+.comment-inbox {
+    padding: 13px 0;
+}
+.u_return_stat .list-group-item:hover {
+    cursor: pointer;
+    background-color: lightcyan;
+}
+.stat-border-bottom {
+    border-bottom: 1px solid #989898 !important;
+}
+.stat-border-bottom-alt {
+    border-bottom: 1px solid #d8d8d8 !important;
+}
+.u-return-stat-num {
+    font-size: 1.3rem !important;
+}
+.u-stat-small {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top:40px;
+}
+.comment-inner .list-group-item {
+    border: 1px solid gainsboro !important;
+    border-radius: 5px;
+}
+.header_one {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header {
+    background-image: url('../assets/images/left_01.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.header_new {
+    height: 90px;
+    background-color: #fffffe;
+}
+
+.header_new_lt {
+    background-image: url('../assets/images/left_01.png'); 
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header_new_md {
+    background-image: url(../assets/images/middle_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header_new_rt {
+    background-image: url(../assets/images/right_01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header_new_md w_f_c {
+    width: fit-content;
+}
+
+.header_md_title_sub {
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}
+
+.header_md_title_main {
+    font-size: 1.6rem;
+    color: white;
+    text-align: right;
+    margin-top: -6px;
+    padding-right: 257px;
+}
+.min-box {
+	display: inline-flex;
+	padding: 28px 13px 10px 13px;
+	background: white;
+    border-left: 13px solid #0c63ae;
+}
+.min-text-container {
+    padding: 0 0 0 8px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+}
+.min-logo {
+    height: 47px;
+    margin: 0;
+}
+.min-text-one {
+	font-weight: bold;
+    font-size: 15px;
+}
+.min-text-two {
+	font-size: 14px;
+}
+.main-box {
+	text-align: center;
+	padding: 45px 6px;
+}
+.ibm-logo {
+	height: 75px;
+	padding: 0 20px;
+}
+.ibm-header-text {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 8px #207cbd;
+	vertical-align: middle;
+	font-weight: 800;
+}
+.srch-icon {
+	line-height: revert;
+}
+.search-box {
+    margin-top: 25px;
+    margin-left: 29px;
+}
+.searchbar {
+    position: relative;
+    min-width: 46px;
+    width: 0%;
+    height: 46px;
+    float: right;
+    overflow: hidden;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+    border-radius: 45px;
+	border: none;
+}
+
+.searchbar-input {
+    top: 0;
+    right: 0;
+    border: 0;
+    outline: 0;
+    background: #187fd0;
+    width: 100%;
+    height: 46px;
+    margin: 0;
+    padding: 0px 55px 0px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 35px;
+}
+
+.searchbar-input::-webkit-input-placeholder {
+ color: #fff
+}
+
+.searchbar-input:-moz-placeholder {
+ color: #fff
+}
+
+.searchbar-input::-moz-placeholder {
+ color: #fff
+}
+
+.searchbar-input:-ms-input-placeholder {
+ color: #fff
+}
+
+.searchbar-icon, .searchbar-submit {
+    width: 46px;
+    height: 46px;
+    display: block;
+    position: absolute;
+    top: 0;
+    font-family: verdana;
+    font-size: 18px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background: #57b1f5;
+    border-radius: 35px;
+}
+.searchbar-open {
+ width: 100%
+}
+
+.widget-content-left a {
+    text-decoration: none;
+    color: #495057;
+}

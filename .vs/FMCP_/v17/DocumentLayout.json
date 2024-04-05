@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\home\\webpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\home\\webpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\home\\disclaimer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\home\\disclaimer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\shared\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\shared\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\generalinformation\\partbgeneralinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\generalinformation\\partbgeneralinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\controllers\\generalinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:controllers\\generalinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\fmcp_.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:fmcp_.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|d:\\shivani_backup\\shivani backup\\shivani_backup\\project_code\\fmcp_new_ankit\\fmcp_\\views\\generalinformation\\chapter_iii_2_mining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{927D6AF4-DA3E-4708-A453-0159B69B09B7}|FMCP_.csproj|solutionrelative:views\\generalinformation\\chapter_iii_2_mining.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contacts.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contacts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:42:00.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FAQ.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\FAQ.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\FAQ.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\FAQ.cshtml",
+              "RelativeToolTip": "Views\\Home\\FAQ.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:24:49.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Webpolicies.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Webpolicies.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Webpolicies.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Webpolicies.cshtml",
+              "RelativeToolTip": "Views\\Home\\Webpolicies.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAC4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:17:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Disclaimer.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Disclaimer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Disclaimer.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Disclaimer.cshtml",
+              "RelativeToolTip": "Views\\Home\\Disclaimer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:11:16.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIUAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:09:36.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PartBGeneralInformation.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\GeneralInformation\\PartBGeneralInformation.cshtml",
+              "RelativeDocumentMoniker": "Views\\GeneralInformation\\PartBGeneralInformation.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\GeneralInformation\\PartBGeneralInformation.cshtml",
+              "RelativeToolTip": "Views\\GeneralInformation\\PartBGeneralInformation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:03:28.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T07:02:44.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Shared\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Dashboard.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Shared\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Dashboard.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T07:00:33.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:53:15.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAowM4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:52:53.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FMCP_.csproj",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\FMCP_.csproj",
+              "RelativeDocumentMoniker": "FMCP_.csproj",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\FMCP_.csproj",
+              "RelativeToolTip": "FMCP_.csproj",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwC8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-05T06:39:53.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:35:45.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T06:35:28.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T06:35:22.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:35:17.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:35:16.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T06:34:50.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GeneralInformationController.cs",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\GeneralInformationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneralInformationController.cs",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Controllers\\GeneralInformationController.cs",
+              "RelativeToolTip": "Controllers\\GeneralInformationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:01:03.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAECAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:53:13.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Chapter_III_2_Mining.cshtml",
+              "DocumentMoniker": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\GeneralInformation\\Chapter_III_2_Mining.cshtml",
+              "RelativeDocumentMoniker": "Views\\GeneralInformation\\Chapter_III_2_Mining.cshtml",
+              "ToolTip": "D:\\Shivani_backup\\shivani backup\\Shivani_backup\\project_code\\FMCP_NEW_ANKIT\\FMCP_\\Views\\GeneralInformation\\Chapter_III_2_Mining.cshtml",
+              "RelativeToolTip": "Views\\GeneralInformation\\Chapter_III_2_Mining.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:01:03.994Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

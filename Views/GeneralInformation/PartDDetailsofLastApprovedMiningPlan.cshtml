@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewData["Title"] = "PartDDetailsofLastApprovedMiningPlan";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 card">
+                <div class="card-body">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading bold">PART-D: DETAILS OF LAST APPROVED MINING PLAN/ FMCP (in case of Modifications in approved FMCP)</div>
+                            <div class="panel-body">
+
+                                <div class="row">
+
+                                   
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading"><h6><b>Date and reference of last approved MP/SOM/RMP/MMP</b></h6></div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="form-group col-md-12">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-bordered">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Sl. No.</th>
+                                                                            <th>Type of document & rule under which prepared</th>
+                                                                            <th>Approval letter No. & date</th>
+                                                                            <th>Lease area for which approval given ( ha)</th>
+                                                                            <th>Proposal from –to (period of years)</th>
+                                                                        </tr>
+
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                               
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="input-group col-md-14">
+                                                                                    <input type="text" class="form-control" placeholder="Approval letter No." />
+                                                                                    
+                                                                                </div>
+                                                                                <div class="input-group col-md-14">
+                                                                                <input type="date" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                       </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer row">
+                    <div class="form-group col-md-12 text-center">
+                        <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Save & Next <i class="fas fa-angle-right"></i> </button>
+                        @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

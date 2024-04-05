@@ -1,0 +1,470 @@
+﻿@{
+    ViewData["Title"] = "Chapter_III_2_Mining";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
+}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 card">
+                <div class="card-body">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading bold text-center">CHAPTER-II GELOGY AND EXPLORATION</div>
+                            <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    2.4.2 Stope parameters:
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                i)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Number of stopes already
+                                                                stoped out
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                ii)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Number of stopes already
+                                                                stowed/backfilled
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                iii)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Number of stopes under
+                                                                backfilling
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                iv)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Number of stopes under
+                                                                preparations
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                v)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Number of working stopes
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                vi)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Method of stowing/back filling
+                                                            </label>
+
+                                                        </div>
+
+                                                        <div class="form-group col-md-7">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label">
+                                                                vii)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                May be furnished as per tables
+                                                                below:
+                                                            </label>
+
+                                                        </div>
+
+
+
+                                                        <div class="form-group col-md-7">
+                                                            <label class="field-label ">
+                                                                May be furnished as per tables
+                                                                below:
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    Status of Existing Stopes
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+
+                                                        <div class="form-group col-md-3">
+                                                            <label class="field-label">
+                                                                Stope
+                                                                Particulars
+                                                                alongwith
+                                                                Location of
+                                                                the Stope
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Reference of
+                                                                IBM letter for
+                                                                grant of
+                                                                Stoping
+                                                                permission
+                                                                (letter No. and
+                                                                date)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Method of
+                                                                Stoping
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-3  ">
+                                                            <label class="field-label ">
+                                                                Method of
+                                                                Stoping
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                        <div class="panel-body col-md-12">
+                                                            
+                                                                <div class="panel panel-info col-md-12">
+                                                                    <div class="panel-heading">
+                                                                        Resources/Reserves
+                                                                        in the Stope (T)
+                                                                    </div>
+
+                                                                    <div class="panel-body">
+                                                                        <div class="row">
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                a=(b+c)
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="a=(b+c)" />
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                Blocked(b)
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="Blocked(b)" />
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                Mineable(c)"
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="Mineable(c)" />
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            <div class="panel panel-info col-md-12">
+                                                                <div class="panel-heading">
+                                                                    Recovered qty. of
+                                                                    ore as on________ ,
+                                                                    from the Stope (T)
+                                                                </div>
+
+                                                                <div class="panel-body">
+                                                                    <div class="row">
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                Development(d)
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="Development(d)" />
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                Exploitation(e) 
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="Exploitation(e)" />
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label class="field-label ">
+                                                                                Total(f=(d+e)
+                                                                            </label>
+                                                                            <input type="text" class="form-control" placeholder="Total(f=(d+e))" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel panel-info col-md-12">
+                                                                <div class="panel-heading">
+                                                                    Balance
+                                                                    Ore in
+                                                                    Stope
+                                                                    (T)
+                                                                    
+                                                                </div>
+
+                                                                <div class="panel-body">
+                                                                    <div class="row">
+                                                                        <div class="form-group col-md-12">
+                                                                            <input type="text" class="form-control" placeholder="(g=c-f)" />
+                                                                        </div>
+                                                                       
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                   
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    Balance Resources/ Reserves in the Stopes as on....................
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+
+                                                        <div class="form-group col-md-6">
+                                                            <label class="field-label">
+                                                                Stope Particulars alongwith
+                                                                Location of the Stope
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-6 text-center ">
+                                                            <label class="field-label ">
+                                                                Balance Ore in Stope
+                                                                (T)
+                                                            </label>
+
+                                                        </div>
+                                                        <div class="form-group col-md-6  ">
+                                                            <label class="field-label ">
+                                                               
+                                                            </label>
+
+                                                        </div>
+                                                    
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label ">
+                                                                *Reserves
+                                                                (g)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label ">
+                                                                *Resources
+                                                                (b)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <label class="field-label ">
+                                                                Total
+                                                                (t=g+b)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-6 text-center">
+                                                            <label class="field-label ">
+                                                                Total
+                                                                
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-2">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-12 text-center">
+                                        <label class="field-label">
+                                            *As per the table above
+                                        </label>
+
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                   3.4.3 Mine ventilation: - Attach an updated underground ventilation plan
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="form-group col-md-12">
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer row">
+                    <div class="form-group col-md-12 text-center">
+                        <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Save & Next <i class="fas fa-angle-right"></i> </button>
+                        @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+

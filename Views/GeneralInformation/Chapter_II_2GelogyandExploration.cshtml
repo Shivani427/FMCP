@@ -1,0 +1,184 @@
+﻿
+@{
+    ViewData["Title"] = "Chapter_II_2GelogyandExploration";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
+}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 card">
+                <div class="card-body">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading bold text-center">CHAPTER-II GELOGY AND EXPLORATION</div>
+                            <div class="panel-body">
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    2.1 LOCAL GEOLOGY: - Brief description of updated geological information as
+                                                    on date about the lease area, lithological details etc
+                                                </div>
+                                                <div class="form-group col-md-12">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                              
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    2.2.2Updated number of boreholes indicating type (Core/RC/DTH etc.), spacing, and
+                                                    explored depth etc. duly marked on Geological Plan with typical borehole logs and
+                                                    sections::
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Year of
+                                                                exploration
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4 ">
+                                                            <label class="field-label ">
+                                                                Number of Bore Holes
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Type
+                                                                of
+                                                                BH
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Explored
+                                                                Depth
+                                                                (m)
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4 ">
+                                                            <label class="field-label ">
+                                                                Spacing / Grid Interval
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Area
+                                                                Covered
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Scale of
+                                                                Exploration
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading bold">
+                                                    2.2.3  Details of samples analysis (as analyzed from NABL accredited laboratory or similar
+                                                    accredited laboratory or Govt. laboratory in the last approved MP/RMP/MMP/FMCP
+                                                    period):
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Type of Sample
+                                                            </label>
+                                                            <label class="field-label">
+                                                                (Grab Sample, Bulk Sample, Core Drill
+                                                                Sample, DTH Sample etc.)
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-group col-md-4 ">
+                                                            <label class="field-label ">
+                                                                Total Samples Collected
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label class="field-label">
+                                                                Total Samples Analyzed
+                                                            </label>
+                                                            <input type="text" class="form-control" />
+                                                        </div>
+
+
+
+                                                    </div>
+                                                    <div class="card-footer row">
+                                                        <div class="form-group col-md-12 text-center">
+                                                            <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Add  </button>
+                                                            @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer row">
+                    <div class="form-group col-md-12 text-center">
+                        <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Save & Next <i class="fas fa-angle-right"></i> </button>
+                        @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+

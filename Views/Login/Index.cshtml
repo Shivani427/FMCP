@@ -1,0 +1,266 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <link href="~/landing/css/forms-style.css" rel="stylesheet" />
+    <link href="~/landing/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/landing/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/landing/css/login.css" rel="stylesheet" />
+    <link href="~/landing/css/stack.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/landing/css/home_page.css" rel="stylesheet" />
+    <script src="~/landing/js/jquery.min.js"></script>
+    <script src="~/landing/js/bootstrap.min.js"></script>
+    <script src="~/landing/js/jquery.ajax.min.js"></script>
+    <script src="~/landing/js/jquery.base64.js"></script>
+    <script src="~/landing/js/bootstrap.bundle.min.js"></script>
+    <script src="~/landing/js/login.js"></script>
+    <script src="~/landing/js/easypiechart.js"></script>
+    <script src="~/landing/js/easypiechart-data.js"></script>
+
+    <script src="Scripts/SHA512_login.js" type="text/javascript"></script>
+    <title>IBM Registration</title>
+    <style>
+        .footerlogo {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    </style>
+    <link href="css/externalStyle.css" rel="stylesheet" />
+    <!-- Google tag (gtag.js) -->
+    @* <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKRRDLMZFN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HKRRDLMZFN');
+    </script> *@
+</head>
+<body>
+
+
+    <div class='login-page'>
+        <div class="col-md-6  col-md-offset-3 login-page-window1">
+            <div class="col-md-12 col-sm-12 col-sm-offset-0 col-lg-8 col-md-offset-2 login-page-window2">
+
+                <form id="form1" runat="server" autocomplete="off">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+                    <div class="container1 login-page-background">
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+                            <Triggers>
+                                <asp:PostBackTrigger ControlID="Login" />
+                            </Triggers>
+                            <ContentTemplate>
+                                <div class="login-heading-title">
+                                    <h1 class='hr'>Login</h1>
+                                </div>
+                                <h4 class="text-center">
+                                    <asp:Label ID="lblMessage" CssClass="text-danger" runat="server" Text=""></asp:Label>
+                                </h4>
+                                <div class="form-group ">
+                                    <label class="control-label" for="uname" style="font-size: 12px"><b>Username</b></label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </div>
+
+                                        @*  <asp:TextBox ID="txt_User" runat="server" CssClass="form-control login-input-fields" placeholder="Enter User Name " MaxLength="30"></asp:TextBox> *@
+                                        <input id="txt_User" class="form-control login-input-fields" max="30" placeholder="Enter User Name " type="text" />
+
+                                    </div>
+                                    <div id="error_username" class="login_error">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label class="control-label" for="psw" style="font-size: 12px"><b>Password</b></label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                        </div>
+
+                                        @* <asp:TextBox ID="txt_Password" TextMode="Password" CssClass="form-control login-input-fields" MaxLength="128" autocomplete="off" runat="server" placeholder="************"></asp:TextBox> *@
+                                        <input id="txt_Password" class="form-control login-input-fields" max="128" autocomplete="off" placeholder="************" name="txt_Password" type="text" />
+
+                                    </div>
+                                    <div id="error_password" class="login_error"></div>
+                                </div>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+
+                        <div class="cpt">
+                            <div class="col-6 col-md-4 col-sm-4 col-lg-4 col-xl-4 cpt-img d-inline-block">
+                                <asp:UpdatePanel ID="UpdatePanel3" runat="server" UpdateMode="Conditional">
+                                    <ContentTemplate>
+                                        <span id="captcha_img">
+                                            <asp:Image ID="Image1" runat="server" ImageAlign="left" ImageUrl="~/Captcha.aspx" Height="36px" Width="141px" CssClass="captcha" />
+                                        </span>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                            </div>
+
+                            <div class="col-4 col-md-2 col-sm-2 col-lg-2 col-xl-2 cpt-img rfs-img d-inline-block">
+
+                                <span id="captcha_img1">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   @*  <asp:ImageButton ID="ImageButton1" runat="server" Style="padding-top: 4px; width: 30px; height: 30px" ImageUrl="landing/img/home/refresh_button.jpg"
+                                                     OnClick="ImageButton1_Click" Height="30px" Width="24px" TabIndex="4" /> *@
+                                    <a href="/Login/Index" Style="padding-top: 4px; width: 30px; height: 30px" tabindex="4">
+                                        <img src="~/landing/img/home/refresh_button.jpg">
+                                    </a>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 cpt-img">
+
+                                @*   <asp:TextBox ID="txt_Captcha" runat="server" CssClass="form-control" MaxLength="6" autocomplete="off" placeholder="Please enter captcha"></asp:TextBox> *@
+                                <input id="txt_Captcha" type="text" class="form-control" MaxLength="6" autocomplete="off" placeholder="Please enter captcha" />
+                            </div>
+
+                            <div id="error_captchacode" class="errormsg login_error">
+                                <asp:Label ID="FailureText" runat="server" Text=""></asp:Label>
+                            </div>
+                        </div>
+
+                       @* <asp:Button ID="Login" class="login-button" OnClick="btnLogin_Click" runat="server" Text="Login"></asp:Button> *@
+                        <!-- <button type="submit" name='submit' id='Login' value='Login' class='login-button' onclick='myFunction();return false'>Login</button> -->
+                        <button type="button" name="login_submit" id="Login" value="Login" runat="server" onserverclick="btnLogin_Click" class="login-button">Login</button>
+
+                        <span class="forgot_link">
+                            <a href="ForgotPasswordNew.aspx" class="login_watag">Forgot Password?</a>
+                        </span>
+                        <p style="display: block; font-size: 17px; font-weight: 600; margin-top: 5px"><a href="ApplicantMobile.aspx" style="color: #FF0000;"><span style="cursor: none; color: #0026ff;">New Registration? </span>Click Here</a></p>
+
+                        <div class='clearfix'></div>
+                        <div class="container1" style="font-size: 14px; color: red;">
+                            Mine Owner should use the credentials generated by form M for the first time login and other user should use the credential generated by the system.
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class='clearfix'></div>
+    </div>
+
+    <div class="" style="background-color: cornsilk;">
+        <marquee behavior="alternate" direction="left">
+            <ul class="slides website-link">
+                <li>
+                    <a target="_blank" href="http://india.gov.in/" title="National Portal of India, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/india-gov.png" alt="" draggable="false" />
+                    </a>
+                </li>
+
+                <%--
+                <li>
+                    <a target="_blank" href="https://data.gov.in/" title="Data portal, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/data-gov.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.makeinindia.com/" title="Make In India, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/makeinindia.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://indiainvestmentgrid.com/" title="India Investment Grid, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/iig.png" alt="" draggable="false" />
+                    </a>
+                </li>--%>
+                <li>
+                    <a target="_blank" href="https://mines.gov.in/" title="Ministry of Mines, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/mines.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <%--
+                <li>
+                    <a target="_blank" href="https://mygov.in/" title="MyGov, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/mygov.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://pmnrf.gov.in/" title="Prime Minister's National Relief Fund, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/pmnrf.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://pmnrf.gov.in/" title="Swach Bharat">
+                        <img src="landing/img/home/Images/swach-bharat.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://gem.gov.in/" title="GeM, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/gem.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.digitalindia.gov.in/" title="Digital India, External Link that opens in a new window">
+                        <img src="landing/img/home/Images/digital-India.png" alt="" draggable="false" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://ibm.gov.in/" title="Indian Bureau of Mines">
+                        <img src="landing/img/home/Images/ibm.png" alt="" draggable="false" />
+                    </a>
+                </li>--%>
+            </ul>
+        </marquee>
+    </div>
+
+
+    @*   <%--<div class="slide-container3">
+
+    <div class="row" style="background-color:#2483C5; margin:0; padding:0">
+    <div class="col-md-1"></div>
+    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+    <img src="images/NIC_logo.png" class="footerlogo" alt="" style="background-color: transparent" />
+    </div>
+    <div class="col-md-7 col-lg-7 col-sm-6 col-xs-12">
+    <div style="color:#fff; vertical-align:middle; padding:1.3em; font-size:1.4em;">
+    This site is designed, developed, hosted and maintained by National Informatics Centre,
+    Ministry of Electronics & Information Technology, Government of India.
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    </div>
+
+    <div class='col-md-12'>
+    <div class='col-md-6 col-md-offset-1 copyright'>
+    <span class="white">Government of India. © 2021 rights reserved, Indian Bureau of Mines </span>
+    </div>
+    <div class='col-md-4' style="padding-right: 62px;">
+    <p class="visitor_design">
+    Total Visitors:&nbsp;
+    <span class="visitor">1</span>
+    <span class="visitor">1</span>
+    <span class="visitor">7</span>
+    <span class="visitor">6</span>
+    <span class="visitor">8</span>
+    </p>
+    </div>
+    </div>
+    </div>--%> *@
+
+
+
+    <script src="~/landing/js/home_page.js"></script>
+
+    <script type="text/javascript">
+        function clearBox() {
+            document.getElementById('txt_User').value = "";
+            document.getElementById('txt_Password').value = "";
+            document.getElementById('txt_Captcha').value = "";
+        }
+    </script>
+</body>
+</html>

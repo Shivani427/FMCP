@@ -1,0 +1,518 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <link href="~/landing/css/forms-style.css" rel="stylesheet" />
+    <link href="~/landing/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/landing/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/landing/css/login.css" rel="stylesheet" />
+    <link href="~/landing/css/stack.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/landing/css/home_page.css" rel="stylesheet" />
+    <script src="~/landing/js/jquery.min.js"></script>
+    <script src="~/landing/js/bootstrap.min.js"></script>
+    <script src="~/landing/js/jquery.ajax.min.js"></script>
+    <script src="~/landing/js/jquery.base64.js"></script>
+    <script src="~/landing/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <title>IBM Registration</title>
+    <style>
+        .footerlogo {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    </style>
+    <link href="~/css/externalstyle.css" rel="stylesheet" />
+
+    <!-- Google tag (gtag.js) -->
+    @*  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKRRDLMZFN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HKRRDLMZFN');
+    </script>
+    *@
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        @*   <header class="headerdesktop">
+        <div class="container-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row header_new">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 header_new_lt"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 header_new_md">
+        <div class="w_f_c">
+        <div class="header_md_title_sub">MINING TENEMENT SYSTEM</div>
+        <div class="header_md_title_main">Registration System(Form-K)</div>
+        </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 header_new_rt"></div>
+        </div>
+        </div>
+        </header> *@
+
+        @*  <header class="headermob">
+        <div class="container-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="landing/img/home_page/left_01.png" class="img-responsive" style="width:49%;display:inline-block;float:left" />
+        <img src="landing/img/home_page/right_01.png" class="img-responsive" style="width:49%;display:inline-block;float:right" />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header_new_md">
+        <div class="w_f_c">
+        <div class="header_md_title_sub" style="font-size:1.4rem !important">MINING TENEMENT SYSTEM</div>
+        <div class="header_md_title_main" style="font-size:1.2em !important">Registration System(Form-K)</div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </header>
+
+        <div class="container-fluid header-menu-container">
+        <div class="row">
+        <div class="header-menu-new col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light float-right header-menu-wrap">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse collapsemob" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        <a href="index.html" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+        <a href="disclaimer.html" class="nav-link">DISCLAIMER</a>
+        </li>
+        <li class="nav-item">
+        <a href="webpolicies.html" class="nav-link">WEB POLICIES</a>
+        </li>
+        <li class="nav-item">
+        <a href="faq.html" class="nav-link">FAQ</a>
+        </li>
+        <li class="nav-item">
+        <a href="contact.html" class="nav-link">CONTACTS</a>
+        </li>
+        <li class="nav-item">
+        <a href="InstructionManual.aspx" target="_blank" class="nav-link">INSTRUCTION MANUAL</a>
+        </li>
+        </ul>
+        </div>
+        </nav>
+        </div>
+        </div>
+        </div> *@
+
+        <!--<marquee attribute_name="attribute_value" class="alert alert-info h4">
+            <i class="fa fa-info-circle"></i> For returns upto March 2022, Please go to <a href="https://oldreturns.ibm.gov.in/">https://oldreturns.ibm.gov.in</a>
+        </marquee>-->
+        <div class="container-fluid banner-container">
+            <div class="row">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-8 banner-text-wrapper">
+                    <div class="banner-text-div">
+                        <div class="banner-text text-right">
+                            <span class="banner-text-one text-right">IBM</span>
+                            <span class="banner-text-two text-right">Registration</span>
+                            <span class="banner-text-three text-right">Welcome to IBM Registration under Rule 45 of MCDR 2017</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 row login-div-wrap">
+
+                    <div class="col-lg-2 pr-0 pl-0">
+                        <a href="/Login/Index">
+                            <div class="login-div login-div-four">
+                                <div class="login-div-icon login-div-icon-four">
+                                </div>
+                                <div class="login-div-text">
+                                    <br>
+                                    <strong>IBM Registration</strong>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-2 pr-0 pl-0">
+                        <a href="https://ibmreturns.gov.in/users/authuser">
+                            <div class="login-div login-div-one">
+                                <div class="login-div-icon login-div-icon-one">
+                                </div>
+                                <div class="login-div-text">
+                                    File Returns<br>
+                                    <strong>Miners</strong>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    @*  <div class="col-lg-2 pr-0 pl-0" title="Average Sale Price">
+                    <a href="ASP/Login.aspx">
+                    <div class="login-div login-div-two">
+                    <div class="login-div-icon login-div-icon-two">
+                    </div>
+                    <div class="login-div-text">
+                    <%--ASP Portal--%><br>
+                    <strong>ASP Portal<%--Average Sale Price--%></strong>
+                    </div>
+                    </div>
+                    </a>
+                    </div> *@
+
+                    <%--<div class="col-lg-2 pr-0 pl-0" title="Trader/Exporter/Stockist/End User">
+                        <a href="https://ibmreturns.gov.in/users/enduser">
+                            <div class="login-div login-div-two">
+                                <div class="login-div-icon login-div-icon-two">
+                                </div>
+                                <div class="login-div-text">
+                                    File Returns<br>
+                                    <strong>Others</strong>
+                                </div>
+                            </div>
+                        </a>
+                    </div>--%>
+                    <div class="col-lg-2 pr-0 pl-0">
+                        <a href="https://ibmreturns.gov.in/users/mmsuser">
+                            <div class="login-div login-div-three">
+                                <div class="login-div-icon login-div-icon-three">
+                                </div>
+                                <div class="login-div-text">
+                                    <br>
+                                    Login by <strong>IBM</strong>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 pr-0 pl-0" title="Primary User">
+                        <a href="https://ibmreturns.gov.in/users/primaryuser">
+                            <div class="login-div login-div-four">
+                                <div class="login-div-icon login-div-icon-four">
+                                </div>
+                                <div class="login-div-text">
+                                    <br>
+                                    <strong>Mine Owner</strong>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content-outer">
+
+            <div class="slide-container">
+                <div id="carouselIndicators1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active">
+                            <div class='col-md-12 homepage_slide'>
+                                <div class='col-md-3 col-sm-2 col-xs-1 m-0 p-0'>
+                                    <div class="service f1">
+                                        <h1 class='slide-h1 homepage_slide_text'>K</h1>
+                                        <h4 class='slide-h4 homepage_slide_text'>
+                                            <asp:Label ID="lbltotalreg" runat="server" Text=""></asp:Label>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class='col-md-8 col-sm-12 f2-box-8'>
+                                    <div class='col-md-12 f2-box-12'>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-1" data-dimension="200" data-text="Issued" data-fontsize="30" data-percent="92.241992882562" data-fgcolor="#08eafe" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblissue" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-2" data-dimension="200" data-text="Junked" data-fontsize="30" data-percent="1.3523131672598" data-fgcolor="#ff4b66" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lbljunk" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-3" data-dimension="200" data-text="Suspended" data-fontsize="30" data-percent="6.4056939501779" data-fgcolor="#27bd81" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblsuspend" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class='col-md-12 homepage_slide'>
+                                <div class='col-md-3 col-sm-2 col-xs-1 m-0 p-0'>
+                                    <div class="service f4">
+                                        <h1 class='slide-h1 homepage_slide_text'>F</h1>
+                                        <h4 class='slide-h4 homepage_slide_text'>
+                                            <asp:Label ID="lblf" runat="server" Text=""></asp:Label>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class='col-md-8 col-sm-12 f2-box-8'>
+                                    <div class='col-md-12 f2-box-12'>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-9" data-dimension="200" data-text="F1" data-fontsize="36" data-percent="92.2419923" data-fgcolor="#08eafe" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblf1" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-10" data-dimension="200" data-text="F2" data-fontsize="36" data-percent="1.3523132" data-fgcolor="#ff4b66" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblf2" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-11" data-dimension="200" data-text="F3" data-fontsize="36" data-percent="6.405694" data-fgcolor="#27bd81" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblf3" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class='col-md-12 homepage_slide'>
+                                <div class='col-md-3 col-sm-2 col-xs-1 m-0 p-0'>
+                                    <div class="service f1">
+                                        <h1 class='slide-h1 homepage_slide_text'>G</h1>
+                                        <h4 class='slide-h4 homepage_slide_text'>
+                                            <asp:Label ID="lblg" runat="server" Text=""></asp:Label>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class='col-md-8 col-sm-12 f2-box-8'>
+                                    <div class='col-md-12 f2-box-12'>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-4" data-dimension="200" data-text="G1" data-fontsize="36" data-percent="65" data-fgcolor="#08eafe" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblg1" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-5" data-dimension="200" data-text="G2" data-fontsize="36" data-percent="65" data-fgcolor="#ff4b66" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblg2" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-4 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-6" data-dimension="200" data-text="G3" data-fontsize="36" data-percent="65" data-fgcolor="#27bd81" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblg3" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class='col-md-12 homepage_slide'>
+                                <div class='col-md-12 col-sm-12 f2-box-12'>
+                                    <div class='col-md-12 f2-box-12'>
+                                        <div class='col-md-3 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="service f1">
+                                                <h1 class='slide-h1 homepage_slide_text'>L</h1>
+                                                <h4 class='slide-h4 homepage_slide_text'></h4>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-3 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-7" data-dimension="200" data-text="L0" data-fontsize="36" data-percent="65" data-fgcolor="#08eafe" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lbll0" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-3 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="service f1">
+                                                <h1 class='slide-h1'>M</h1>
+                                                <h4 class='slide-h4'></h4>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-3 col-sm-1 col-xs-1 f2-box-8'>
+                                            <div class="chrt-div">
+                                                <div id="chrt-8" data-dimension="200" data-text="M0" data-fontsize="36" data-percent="65" data-fgcolor="#ff4b66" data-bgcolor="#eee" data-width="15" data-bordersize="15" data-animationstep="2">
+                                                    <span class="homepage_stat_c">
+                                                        <asp:Label ID="lblm0" runat="server" Text=""></asp:Label>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        @*    <div class="slide-container2">
+        <footer class="footer-bg">
+        <%--<div class="no-padding">
+        --%>
+        <%--<div class="row">
+        --%>
+        <%--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-padding">
+        --%>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-black">
+        <h4 class="footer-heading hr text-dark">Quick Link</h4>
+        <div class="clear_b"></div>
+        <br>
+        <ul class="footer-quick-link">
+        <li class="nav-item active">
+        <a href="Index.aspx">Home</a>
+        </li>
+        <li class="nav-item active">
+        <a href="disclaimer.html">Disclaimer</a>
+        </li>
+        <li class="nav-item active">
+        <a href="webpolicies.html">Web Policies</a>
+        </li>
+        <li class="nav-item active">
+        <a href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item active">
+        <a href="contact.html">Contact</a>
+        </li>
+        </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <h4 class="footer-heading hr text-dark">Address</h4>
+        <div class="clear_b"></div>
+        <br>
+        <ul>
+        <span class="text-dark">
+        <p>
+        Indian Bureau of Mines<br>
+        2 nd Floor, Indira Bhawan, Civil Lines,<br>
+        NAGPUR - 440 001 (INDIA)<br>
+        Tel.No. 91 712 2560041,<br>
+        Fax.No. 91 712 2565073,<br>
+        Email :&nbsp;mms[at]ibm[dot]gov[dot]in
+        </p>
+        </span>
+        </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <img src="./images/home-banner2.jpg" class="img-responsive" />
+        <br />
+        <br />
+        </div>
+        <%--
+        </div>--%>
+        <%--
+        </div>--%>
+        <%--
+        </div>--%>
+        </footer>
+        </div>
+        <div class="slide-container3">
+        <%--<div class="row">
+        --%>
+        <div class="col-md-12">
+        <div class="col-md-6 col-md-offset-1 copyright">
+        <!-- <span class="white">Government of India. © 2019 All rights reserved, Indian Bureau of Mines </span> -->
+        </div>
+        <div class="col-md-4 p_r_62">
+        <p class="visitor_design">
+        Total Visitors:&nbsp;
+        <asp:Label ID="lblvistcount" runat="server" Text=""></asp:Label>
+        </p>
+        </div>
+        </div>
+        <%--
+        </div>--%>
+        </div>
+        <%--<div class="row">
+        --%>
+        <div class="col-md-12 text-center">
+        <p class="text-center">
+        Contents Provided by Indian Bureau of Mines (IBM),   Ministry of Mines, Government of India.
+        <br>
+        <img src="./images/NIC_logo.jpg" alt="NIC" width="120" height="26" longdesc="http://nic.in">
+        <br>
+        Designed, Developed and Maintained by National Informatics Centre.
+        </p>
+
+        </div>
+        <%--
+        </div>--%> *@
+
+        <script src="~/landing/js/home_page.js"></script>
+
+    </form>
+</body>
+</html>

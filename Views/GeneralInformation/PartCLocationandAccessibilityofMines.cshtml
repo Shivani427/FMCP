@@ -1,0 +1,303 @@
+﻿@{
+    ViewData["Title"] = "PartCLocationandAccessibilityofMines";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 card">
+                <div class="card-body">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading bold">PART-C:LOCATION AND ACCESSIBILITY OF MINES</div>
+                            <div class="panel-body">
+
+                                <div class="row">
+
+                                    <div class="form-group col-md-4">
+                                        <label>Name of Mines <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Name of Mines" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Lease No/TC no/& Mines code/Lease Code <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Lease No/TC no/& Mines code/Lease Code" />
+                                    </div>
+
+                                    <div class="form-group col-md-4">
+                                        <label>Date of grant of lease and date of Execution of lease <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Date of grant of lease and date of Execution of lease" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Period of lease from DD/MM/YYYY to DD/MM/YYYY <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Period of lease from DD/MM/YYYY to DD/MM/YYYY" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Location of mine Village, Tehsil, Police station - District, PIN <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Location of mine Village, Tehsil, Police station - District, PIN" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Postal address for mine <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Postal address for mine" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Post:- <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Post:-" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Tehsil/Taluka  <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Tehsil/Taluka:-" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>District & State  <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="District & State:-" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Pin Code <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Pin Code:-" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Phone/Mobile <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Phone/Mobile:-" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Fax <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="Fax" />
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>e-mail:- <span class="text-danger">*</span> : </label>
+                                        <input type="text" class="form-control" placeholder="e-mail:-" />
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <div class="panel-group">
+                                            <div class="panel panel-success">
+                                                <div class="panel-heading"><h6><b>Details of Lease area-</b></h6></div>
+                                                <div class="panel-body">
+                                                    <div class="row">
+                                                        <div class="form-group col-md-12">
+                                                            <div class="table-responsive">
+                                                                <table class="table table-bordered">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th></th>
+                                                                            <th>Area (ha)</th>
+                                                                            <th>Type of land</th>
+                                                                            <th>Ownership</th>
+                                                                            <th>Area acquired/ Surface rights/ Consent obtained</th>
+                                                                        </tr>
+
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    a) Non--Forest area
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <select name="select" id="select" class="form-control">
+                                                                                        <option value="Govt.">Govt.</option>
+                                                                                        <option value="Pvt.">Pvt.</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>b) Forest Area</td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <select name="select" id="select" class="form-control">
+                                                                                        <option value="Govt.">Govt.</option>
+                                                                                        <option value="Pvt.">Pvt.</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Total(a+b)</td>
+                                                                            <td colspan="2">
+                                                                                <div class="form-group col-md-14">
+                                                                                    <input type="text" class="form-control" />
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-md-12">
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered">
+
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Whether the area falls under Coastal Regulation Zone (CRZ)? If yes, details Thereof, alongwith the permission from competent authorities</td>
+                                                                <td>
+                                                                    <textarea id="w3review" name="w3review" rows="4" cols="50" class="">
+                                                                        </textarea>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Nearest distance from any boundary pillar to the nearby National Park/Wild Life Sanctuary/Protected Area (to be given if located within 10km from the radius of lease area) / Border or Seaboard
+                                                                </td>
+                                                                <td>
+                                                                    <textarea id="w3review1" name="w3review" rows="4" cols="50" class="">
+                                                                        </textarea>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Existence of public road/railway line, if any nearby and approximate distance
+                                                                </td>
+                                                                <td>
+                                                                        <textarea id="w3review1" name="w3review" rows="4" cols="50" class="">
+                                                                        </textarea>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Approach route from Quarters to mine site
+                                                                </td>
+                                                                <td>
+                                                                    <textarea id="w3review1" name="w3review" rows="4" cols="50" class="">
+                                                                        </textarea>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    Topo-sheet No. of Survey of India Map
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control"  />
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                     
+                                                    </table>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Latitude & Longitude boundary pillars of all corner</th>
+                                                                <th>Latitude (dd mm ss)</th>
+                                                                <th>Longitude (dd mm ss)</th>
+                                                           
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pillar no1</td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pillar no-2</td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pillar no-3 & so on</td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group col-md-14">
+                                                                        <input type="text" class="form-control" />
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </thead>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer row">
+                    <div class="form-group col-md-12 text-center">
+                        <button onclick="location.href='@Url.Action("Create", "User")'" class="btn btn-success"> <i class="fa fa-save"></i> Save & Next <i class="fas fa-angle-right"></i> </button>
+                        @*   <input type="button" value="Save & Next" class="btn btn-success" onclick="location.href='@Url.Action("Create", "User")'" /> *@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
