@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FMCP_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+751ace4d9431d7d786fa6b5e4d3c94af1b41dc7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FMCP_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FMCP_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
-﻿@model FMCP_.Models.generalInformation
+﻿@using FMCP_.Models.RegDto
+@model IEnumerable<LeeseDetail>
+
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/Dashboard.cshtml";
@@ -14,91 +16,97 @@
             <div class="panel panel-default">
                 <div class="panel-heading"><h5><b>PART-B:GENERAL INFORMATION</b></h5></div>
                 <div class="panel-body">
-                    
-                    <div class="row">
+                   @foreach (var item in Model)
+                        {
+                            <div class="row">
 
-                        <div class="form-group col-md-4">
-                            <label>Name of the Lessee <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Name of the Lessee" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Address <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Address" />
-                        </div>
+                                <div class="form-group col-md-4">
+                                    <label>Name of the Lessee <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Name of the Lessee" value="@item.leeseName" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Address <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Address" value="@item.leeseAddress" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>State <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="State" value="@item.leeseStateDistrict" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>District <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="District" value="@item.leeseStateDistrict" />
+                                </div>
 
-                        <div class="form-group col-md-4">
-                            <label>State <span class="text-danger">*</span> : </label>
-                            <select name="cars" id="cars" class="form-control">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                        </div>
-                        <div class="form0-group col-md-4">
-                            <label>District <span class="text-danger">*</span> : </label>
-                            <select name="cars" id="cars" class="form-control">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Pincode <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Pincode" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Phone & Mobile No <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Phone & Mobile No" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Fax <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Fax" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Email <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Email" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>IBM Registration Number <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="IBM Registration Number" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Status of Lessee <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Status of Lessee" />
-                        </div>
-                         <div class="form-group col-md-4">
-                            <label>Name of Partner <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Name of Partner" />
-                        </div>
-                         <div class="form-group col-md-4">
-                            <label>Mineral(s) which is included in the lease deed <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Mineral" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Mineral(s) which leasee to mines <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Mineral" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Name of Qualified Person <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Name of Qualified Person" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Address <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Address" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Phone number/mobile number/email <span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Phone No/mobile No/email" />
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label>Fax Number<span class="text-danger">*</span> : </label>
-                            <input type="text" class="form-control" placeholder="Fax Number" />
-                        </div>
-                        
-                    </div>
-                    <div class="row topdetail mt-2">
+                                <div class="form-group col-md-4">
+                                    <label>Pincode <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Pincode" value="@item.leesePincode" />
+                                </div>
+
+
+                                <div class="form-group col-md-4">
+                                    <label>Phone & Mobile No <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Phone & Mobile No" value="@item.leeseOfficePhone" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Fax <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Fax" value="@item.leeseFax" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Email <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Email" value="@item.leeseEmail" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>IBM Registration Number <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="IBM Registration Number" value="@item.leeseRegNo" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Status of Lessee <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Status of Lessee" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Name of Partner <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Name of Partner" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Mineral(s) which is included in the lease deed <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Mineral" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Mineral(s) which leasee to mines <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Mineral" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Name of Qualified Person <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Name of Qualified Person" />
+                                </div>
+                            <div class="form-group col-md-4">
+                                <label>Qualification <span class="text-danger">*</span> : </label>
+                                <input type="text" class="form-control" placeholder="Qualification" />
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>Experience <span class="text-danger">*</span> : </label>
+                                <input type="text" class="form-control" placeholder="Experience" />
+                            </div>
+                                <div class="form-group col-md-4">
+                                    <label>Address <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Address" />
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Phone number/mobile number <span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Phone No/mobile No" />
+                                </div>
+                            <div class="form-group col-md-4">
+                                <label>Email <span class="text-danger">*</span> : </label>
+                                <input type="text" class="form-control" placeholder="Email" />
+                            </div>
+                                <div class="form-group col-md-4">
+                                    <label>Fax Number<span class="text-danger">*</span> : </label>
+                                    <input type="text" class="form-control" placeholder="Fax Number" />
+                                </div>
+
+                            </div>
+                        }
+                        <div class="row topdetail mt-2">
                         <div class="col-md-5"></div>
                         <div class="col-md-7">
                            
