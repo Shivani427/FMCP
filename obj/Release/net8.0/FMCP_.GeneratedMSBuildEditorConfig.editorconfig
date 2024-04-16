@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FMCP_
+build_property.RootNamespace = FMCP_
+build_property.ProjectDir = D:\Shivani_backup\shivani backup\Shivani_backup\project_code\FMCP_NEW_ANKIT\FMCP_\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Shivani_backup\shivani backup\Shivani_backup\project_code\FMCP_NEW_ANKIT\FMCP_
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_III_1_Mining.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlJXzFfTWluaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_III_2_Mining.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlJXzJfTWluaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_II_1GelogyandExploration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlfMUdlbG9neWFuZEV4cGxvcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_II_2GelogyandExploration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlfMkdlbG9neWFuZEV4cGxvcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_II_3GelogyandExploration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlfM0dlbG9neWFuZEV4cGxvcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_II_4GelogyandExploration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSUlfNEdlbG9neWFuZEV4cGxvcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_IV_1_Stacking_Of_Top_Soil_Mineral_Reject_Fines_Tailings_Slimes_and_Their_Disposal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfSVZfMV9TdGFja2luZ19PZl9Ub3BfU29pbF9NaW5lcmFsX1JlamVjdF9GaW5lc19UYWlsaW5nc19TbGltZXNfYW5kX1RoZWlyX0Rpc3Bvc2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_V_1_Final_Mine_Closure_Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfVl8xX0ZpbmFsX01pbmVfQ2xvc3VyZV9QbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_V_2_Final_Mine_Closure_Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfVl8yX0ZpbmFsX01pbmVfQ2xvc3VyZV9QbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_V_3_Final_Mine_Closure_Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfVl8zX0ZpbmFsX01pbmVfQ2xvc3VyZV9QbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_V_4_Final_Mine_Closure_Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfVl80X0ZpbmFsX01pbmVfQ2xvc3VyZV9QbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Chapter_V_5_Final_Mine_Closure_Plan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXENoYXB0ZXJfVl81X0ZpbmFsX01pbmVfQ2xvc3VyZV9QbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartBGeneralInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRCR2VuZXJhbEluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartCLocationandAccessibilityofMines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRDTG9jYXRpb25hbmRBY2Nlc3NpYmlsaXR5b2ZNaW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartDDetailsofLastApprovedMiningPlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRERGV0YWlsc29mTGFzdEFwcHJvdmVkTWluaW5nUGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartE1ReviewofLastestApprovedPropsals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRFMVJldmlld29mTGFzdGVzdEFwcHJvdmVkUHJvcHNhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartE2ReviewofLastestApprovedPropsals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRFMlJldmlld29mTGFzdGVzdEFwcHJvdmVkUHJvcHNhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartE3ReviewofLastestApprovedPropsals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRFM1Jldmlld29mTGFzdGVzdEFwcHJvdmVkUHJvcHNhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/GeneralInformation/PartE4ReviewofLastestApprovedPropsals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbEluZm9ybWF0aW9uXFBhcnRFNFJldmlld29mTGFzdGVzdEFwcHJvdmVkUHJvcHNhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/Disclaimer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNjbGFpbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Home/Webpolicies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWJwb2xpY2llcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Shared/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shivani_backup/shivani backup/Shivani_backup/project_code/FMCP_NEW_ANKIT/FMCP_/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e4l04msvqy
